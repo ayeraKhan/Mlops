@@ -2,9 +2,9 @@ from flask import Flask
 
 app = Flask(__name__)
 
-@app.route("/")
+@app.route('/')
 def home():
-    return "Deploying Flask App at Vercel"
+    return "Flask App Successfully Deployed on Vercel!"
 
 if __name__ == "__main__":
     app.run()
